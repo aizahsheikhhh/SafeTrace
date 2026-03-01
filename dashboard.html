@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TraceSafe Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <h2>TraceSafe 💗</h2>
+  <a href="index.html">Home</a>
+</nav>
+
+<div class="container">
+  <h1>Digital Risk Analyzer</h1>
+
+  <div class="card">
+    <label><input type="checkbox" value="20"> Public Social Media</label>
+    <label><input type="checkbox" value="15"> Location Tagging</label>
+    <label><input type="checkbox" value="25"> Same Password Everywhere</label>
+    <label><input type="checkbox" value="10"> Accept Unknown Messages</label>
+    <label><input type="checkbox" value="30"> Controversial Posts</label>
+
+    <button onclick="calculateRisk()">Analyze Risk</button>
+  </div>
+
+  <div class="card">
+    <div class="risk-bar-container">
+      <div id="riskBar"></div>
+    </div>
+    <h2 id="result"></h2>
+  </div>
+
+  <div class="card">
+    <h3>Check a URL</h3>
+    <input type="text" id="urlInput" placeholder="Paste a link here">
+    <button onclick="analyzeURL()">Scan Link</button>
+    <p id="urlResult"></p>
+  </div>
+
+</div>
+
+</body>
+</html>
