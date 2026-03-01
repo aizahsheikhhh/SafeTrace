@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TraceSafe Education</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <h2>TraceSafe 💗</h2>
+  <a href="index.html">Home</a>
+  <a href="dashboard.html">Dashboard</a>
+  <a href="emergency.html">Emergency</a>
+</nav>
+
+<div class="container">
+  <h1>Learn How to Stay Safe Online</h1>
+
+  <!-- Tips Cards -->
+  <div class="card">
+    <h3>🔴 Common Scams & Red Flags</h3>
+    <p>Watch out for emails promising free money, urgent deadlines, or suspicious links.</p>
+  </div>
+
+  <div class="card">
+    <h3>🔑 Password Hygiene</h3>
+    <p>Use strong, unique passwords. Avoid reusing passwords across accounts.</p>
+  </div>
+
+  <div class="card">
+    <h3>📱 Social Media Privacy Tips</h3>
+    <p>Set profiles to private, limit location sharing, and review friend requests carefully.</p>
+  </div>
+
+  <div class="card">
+    <h3>✉️ Phishing Examples</h3>
+    <p>Learn to spot fake emails, suspicious attachments, and impersonation attempts.</p>
+  </div>
+
+  <!-- Interactive Quiz -->
+  <div class="card">
+    <h3>Test Your Knowledge</h3>
+    <p>Do you know how to stay safe online?</p>
+    <label><input type="radio" name="quiz" value="correct"> Use strong passwords on all accounts</label><br>
+    <label><input type="radio" name="quiz" value="wrong"> Click every link that looks urgent</label><br>
+    <label><input type="radio" name="quiz" value="wrong"> Share personal info publicly</label><br>
+    <button onclick="checkQuiz()">Submit Answer</button>
+    <p id="quizResult"></p>
+  </div>
+
+</div>
+
+</body>
+</html>
