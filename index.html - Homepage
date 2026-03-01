@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TraceSafe 💗</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <h2>TraceSafe 💗</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="education.html">Education</a>
+    <a href="emergency.html">Emergency</a>
+  </nav>
+
+  <div class="container">
+    <h1>Welcome to TraceSafe 💗</h1>
+    <p>Your hub for digital safety, learning, and emergency resources.</p>
+    <img src="https://via.placeholder.com/600x200?text=TraceSafe+Banner" alt="TraceSafe Banner">
+  </div>
+</body>
+</html>
