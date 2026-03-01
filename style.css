@@ -1,85 +1,19 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #ffe6f0;
-}
-
-nav {
-  background: #ff4da6;
-  color: white;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.btn {
-  background: #ff4da6;
-  color: white;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 8px;
-  display: inline-block;
-  margin-top: 20px;
-}
-
-.container {
-  padding: 40px;
-  max-width: 600px;
-  margin: auto;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-button {
-  background: #ff4da6;
-  color: white;
-  border: none;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-input[type="text"] {
-  width: 100%;
-  padding: 8px;
-  margin-top: 10px;
-}
-
-.risk-bar-container {
-  width: 100%;
-  height: 20px;
-  background: #eee;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-#riskBar {
-  height: 100%;
-  width: 0%;
-  background: #ff4da6;
-  transition: width 0.5s;
-}
+/* Card hover animation */
 .card:hover {
   transform: scale(1.03);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   transition: all 0.3s ease;
+}
+
+/* Quiz result styling */
+#quizResult {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff4da6; /* Pink */
+}
+
+/* Card images styling */
+.card img {
+  display: block;
+  margin: 0 auto 10px auto;
 }
